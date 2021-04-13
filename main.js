@@ -7,7 +7,7 @@ const site = document.querySelector('.site');
 const result = document.querySelector('.result');
 const rock = document.getElementById('rock');
 const paper = document.getElementById('paper');
-const scissor = document.getElementById('scissor')
+const scissor = document.getElementById('scissor');
 
 function compChoice() {
     let choices = [
@@ -68,7 +68,6 @@ function game(userChoice) {
         case 'rockrock':
         case 'paperpaper':
         case 'scissorscissor':
-            console.log('tie')
             draw(userChoice, computerChoice)
             break;
     }

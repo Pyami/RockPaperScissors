@@ -55,11 +55,11 @@ img {
 }
 
 #score {
-    width: 40%;
+    width: 20%;
     height: 8%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -68,7 +68,7 @@ img {
 }
 
 #score-board {
-    width: 20%;
+    width: 30%;
     height: 100%;
     font-size: 30px;
     border: 2px solid #fff;
@@ -78,6 +78,12 @@ img {
     justify-content: space-evenly;
 }
 
+.badge {
+    background-color: #f16359;
+    color: #fff;
+    width: 20%;
+}
+
 .result {
     font-size: 2rem;
 }
@@ -85,4 +91,16 @@ img {
 .move {
     font-size: 20px;
     margin-top: 2%;
+}
+
+.win {
+    border: 6px double #6df18e;
+}
+
+.lose {
+    border: 6px double #f16359;
+}
+
+.draw {
+    border: 6px double   #888888;
 }
