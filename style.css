@@ -11,37 +11,78 @@ html, body {
     background-color: #1e1925;
     color: #fff;
     text-align: center;
+    word-spacing: 5px;
 }
 
 nav {
-    height: 12%;
+    height: 10%;
     background-color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     color: #1e1925;
 }
 
+img {
+    height: 20vmin;
+    width: 20vmin;
+}
+
 #choices {
     width: 70%;
-    margin: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin: auto;
+    margin-top: 2%;
 }
 
 .choice {
-    border: 4px double #fff;
-    height: 35vmin;
-    width: 35vmin;
+    border: 6px double #fff;
+    height: 30vmin;
+    width: 30vmin;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 700ms ease-in-out;
+    transition: 400ms ease-in-out;
+    margin: auto;
 }
 
 .choice:hover {
     cursor: pointer;
     background-color: #282331;
     transform: scale(1.1);
+}
+
+#score {
+    width: 40%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#score-board {
+    width: 20%;
+    height: 100%;
+    font-size: 30px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.result {
+    font-size: 2rem;
+}
+
+.move {
+    font-size: 20px;
+    margin-top: 2%;
 }

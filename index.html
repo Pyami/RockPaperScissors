@@ -16,25 +16,27 @@
         <h1>Rock Paper Scissors</h1>
     </nav>
 
-    <div id="score-board">
-        <p class="badge"></p>
-        <span class="score">0</span>
-        <span>:</span>
-        <span class="score"></span>
-        <p class="badge">0</p>
+    <div id="score">
+        <p class="badge">User</p>
+        <div id="score-board">
+            <span class="score" id="userScore">0</span>
+            <span>:</span>
+            <span class="score" id="compScore">0</span>
+        </div>
+        <p class="badge">Comp</p>
     </div>
 
-    <p class="result">Paper covers rock</p>
+    <p class="result"></p>
 
     <div id="choices">
-        <div class="choice">
-            <img src="img/rock.png" id="rock" alt="Rock">
+        <div class="choice" id="rock">
+            <img src="img/rock.png" alt="Rock">
         </div>
-        <div class="choice">
-            <img src="img/paper.png" id="paper" alt="Paper">
+        <div class="choice" id="paper">
+            <img src="img/paper.png" alt="Paper">
         </div>
-        <div class="choice">
-            <img src="img/scissors.png" id="scissor" alt="Scissor">
+        <div class="choice" id="scissor">
+            <img src="img/scissors.png"  alt="Scissor">
         </div>
     </div>
 
@@ -42,6 +44,7 @@
         Make your Move
     </p>
 
+    <script src="main.js"></script>
 </body>
 
 </html>
