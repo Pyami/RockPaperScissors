@@ -1,19 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Rock Paper Scissors</title>
 </head>
+
 <body>
     <nav>
         <h1>Rock Paper Scissors</h1>
     </nav>
 
     <div id="score-board">
-        
+        <p class="badge"></p>
+        <span class="score">0</span>
+        <span>:</span>
+        <span class="score"></span>
+        <p class="badge">0</p>
     </div>
-    
+
+    <p class="result">Paper covers rock</p>
+
+    <div id="choices">
+        <div class="choice">
+            <img src="img/rock.png" id="rock" alt="Rock">
+        </div>
+        <div class="choice">
+            <img src="img/paper.png" id="paper" alt="Paper">
+        </div>
+        <div class="choice">
+            <img src="img/scissors.png" id="scissor" alt="Scissor">
+        </div>
+    </div>
+
+    <p class="move">
+        Make your Move
+    </p>
+
 </body>
+
 </html>

@@ -7,4 +7,41 @@
 html, body {
     height: 100%;
     width: 100%;
+    font-family: 'Acme', Arial;
+    background-color: #1e1925;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    height: 12%;
+    background-color: #fff;
+    font-size: 40px;
+    text-align: center;
+    color: #1e1925;
+}
+
+#choices {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.choice {
+    border: 4px double #fff;
+    height: 35vmin;
+    width: 35vmin;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 700ms ease-in-out;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: #282331;
+    transform: scale(1.1);
 }
