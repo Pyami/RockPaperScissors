@@ -19,6 +19,9 @@ function compChoice() {
     return choices[randomChoice]
 }
 
+const userSup = "user".fontsize(3).sub();
+const compSup = "comp".fontsize(3).sub();
+
 function win(user, comp) {
     userScore++;
     userScoreSpan.textContent = userScore;
